@@ -45,7 +45,8 @@ Svolgere i seguenti passaggi per avere un ottima e semplice installazione e comp
 		2.2.25	'.chlg'		=> Permette di cambiare la lingua del sistema operativo
 		
 
-3. DARLIING STORE: Le funzioni preseti nello store, vanno scaricare e poi per essere eseguite, vanno messe nella stessa cartella dove è presente il file "nome del file" e poi tramite il comando 'darling.execute' e i successivi passaggi, possono essere avviate e utilizzate.
+3. DARLIING STORE: Le funzioni preseti nello store, vanno scaricare e poi per essere eseguite, vanno messe nella stessa cartella dove è presente il file "nome del file" e poi tramite il comando 'darling.execute' 
+e i successivi passaggi, possono essere avviate e utilizzate.
 
 GRAZIE PER AVER SCARICATO DARLING!
 
