@@ -1,0 +1,12 @@
+:root {
+  /* Colori della pagina di presentazione del sito */
+  --title-color: #00b7ef;
+  --shadow: #fdeb4a;
+
+  --text: #202124;
+
+  /* Colori seconda pagina */
+  --border-table: #f0f0f0;
+  --download: #f0f0f0;
+  --download-hover: #b7e9f8;
+}

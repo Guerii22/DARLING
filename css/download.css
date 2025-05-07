@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url(root.css);
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  color: var(--text);
+
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+  gap: 32px;
+
+  overflow: hidden;
+}
+
+body > div > p > a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Permanent Marker", serif;
+  color: var(--title-color);
+
+  font-size: 5vw;
+
+  animation: entrata_titolo 1s ease-out; /*'ease-out', indica la tipologia di animazione*/
+}
+
+@keyframes entrata_titolo {
+  from {
+    opacity: 0; /* Definisce se il testo è visibile, in questo caso no, perchè è impostato a 0 */
+    transform: translateY(-20px); /*Il testo parte da una posizione 'Y' di -20px rispetto alla posizione finale del testo*/
+  }
+  to {
+    opacity: 1; /*Il titolo diventa visibile*/
+    transform: translateY(0px); /*Il testo è in posizione finale/originale*/
+  }
+}
+
+table {
+  box-shadow: 0px 24px 40px var(--shadow);
+  padding: 32px 64px;
+  border-radius: 16px;
+  animation: entrata_tabella 0.8s ease-out;
+  border: 1px solid var(--border-table);
+}
+
+@keyframes entrata_tabella {
+  from {
+    transform: scale(0.9); /* Imposta la dimensione iniziale della tabella, in questo caso rimpicciolita */
+    opacity: 0;
+  }
+  to {
+    transform: scale(1); /* Dimensione finale della tabella, portata alla dimensione originale */
+    opacity: 1;
+  }
+}
+
+table > * {
+  font-size: 20px;
+}
+
+td {
+  border-bottom: 1px solid var(--border-table);
+  padding: 24px 24px;
+}
+
+td.no-bordo {
+  border-bottom: none;
+}
+
+code > a {
+  color: var(--text);
+  text-decoration: none;
+  background-color: var(--download);
+  border-radius: 8px;
+  padding: 3.5px 12px;
+  font-weight: bold;
+}
+
+code > a:hover {
+  background-color: var(--download-hover);
+}
+
+/* .lato{ 
+  padding: 8px 16px;
+  border-left: 4pxscaleUp
+}
+
+.lato:hover{
+  border-left: 4px solid var(--title-color);
+}
+ */
+
+p {
+  animation: entrata_titolo 0.9s ease-out;
+  font-size: 1.2vw;
+  /* padding: 0;
+  margin: 0; */
+}
