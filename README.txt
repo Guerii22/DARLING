@@ -3,7 +3,7 @@ GUIDA ALL' UTILIZZO DI DARLING
 1. Scaricare l'intera cartella e aprire il file "index.html" con un browser,
 
 2. Proseguire con la guida sottostante.
-________________________________________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________________
 Svolgere i seguenti passaggi per avere un ottima e semplice installazione e comprensione dell'interfaccia.
 
 1. Una volta scaricato il programma, estrarre il contenuto della cartella zippata (.zip) e salvarlo dove preferite;
