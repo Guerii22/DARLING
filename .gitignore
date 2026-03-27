@@ -1,1 +1,18 @@
-*.env
+# Byte-compiled / file inutili
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook 
+.ipynb_checkpoints/
+
+# Environments 
+.python-version
+.env
+.venv
+env/
+venv/
+
+# Editor
+.vscode/
+.idea/
